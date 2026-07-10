@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="grid gap-14 md:grid-cols-3">
           <div>
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="Olive & Ivory logo" className="h-12 w-12 rounded-full object-cover" />
+              <img src="/logo.png" alt="Olive & Ivory logo" className="h-12 w-12 object-contain brightness-0 invert opacity-90" />
               <span className="font-serif text-2xl">
                 Olive <span className="text-gold">&amp;</span> Ivory
               </span>

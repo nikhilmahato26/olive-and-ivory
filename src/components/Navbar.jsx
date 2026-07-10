@@ -29,19 +29,22 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
-        solid
-          ? 'border-b border-sand/70 bg-ivory/85 shadow-[0_1px_20px_rgba(43,43,38,0.05)] backdrop-blur-md'
-          : 'bg-transparent'
-      }`}
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${solid
+        ? 'border-b border-sand/70 bg-ivory/85 shadow-[0_1px_20px_rgba(43,43,38,0.05)] backdrop-blur-md'
+        : 'bg-transparent'
+        }`}
     >
       <nav className="container-page flex h-20 items-center justify-between">
-        <Link to="/" className="flex items-center gap-3" aria-label="Olive & Ivory home">
-          <img src="/logo.png" alt="" className="h-11 w-11 rounded-full object-cover" />
+        <Link to="/" className="flex items-center gap-2" aria-label="Olive & Ivory home">
+          <img
+            src="/logo.png"
+            alt=""
+            className={`h-16 w-16 object-contain transition-all duration-500 ${solid ? "" : "brightness-0 invert opacity-90"
+              }`}
+          />
           <span
-            className={`font-serif text-xl tracking-wide ${
-              solid ? 'text-olive' : 'text-ivory'
-            } transition-colors duration-500`}
+            className={`font-serif text-2xl tracking-wide ${solid ? 'text-olive' : 'text-ivory'
+              } transition-colors duration-500`}
           >
             Olive <span className="text-gold">&amp;</span> Ivory
           </span>
@@ -52,9 +55,8 @@ export default function Navbar() {
             <li key={l.label}>
               <a
                 href={l.href}
-                className={`link-underline font-serif text-[0.95rem] tracking-[0.08em] transition-colors duration-500 ${
-                  solid ? 'text-charcoal hover:text-olive' : 'text-ivory/90 hover:text-ivory'
-                }`}
+                className={`link-underline font-serif text-[0.95rem] tracking-[0.08em] transition-colors duration-500 ${solid ? 'text-charcoal hover:text-olive' : 'text-ivory/90 hover:text-ivory'
+                  }`}
               >
                 {l.label}
               </a>

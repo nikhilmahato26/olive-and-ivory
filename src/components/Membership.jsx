@@ -62,7 +62,7 @@ export default function Membership() {
             <div className="absolute inset-0 rounded-3xl border border-gold/20" />
             <div className="flex h-full flex-col justify-between">
               <div className="flex items-start justify-between">
-                <img src="/logo.png" alt="" className="h-12 w-12 rounded-full object-cover opacity-90" />
+                <img src="/logo.png" alt="" className="h-12 w-12 object-contain opacity-90 brightness-0 invert" />
                 <span className="text-[0.6rem] uppercase tracking-widest2 text-gold">Ivory Card</span>
               </div>
               <div>
