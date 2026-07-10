@@ -24,7 +24,7 @@ export default function Footer() {
               Luxury Unisex Beauty Salon. Where timeless beauty meets modern luxury.
             </p>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/oliveandivorysalon?igsh=MXZsa2hwejI0a245Mg=="
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"

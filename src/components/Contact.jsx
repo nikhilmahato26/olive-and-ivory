@@ -9,7 +9,7 @@ const details = [
   { icon: MessageCircle, label: 'WhatsApp', value: '+91 92811 16233, +91 91000 86327', href: 'https://wa.me/919281116233' },
   { icon: Mail, label: 'Email', value: 'oliveandivory1@gmail.com', href: 'mailto:oliveandivory1@gmail.com' },
   { icon: MapPin, label: 'Address', value: "B Block, Sree Hanuma's Pagadala Pride, Bachupally X Roads, Flat No. 303, Hyderabad, Telangana 500090 (Above Angaara Restaurant)", href: "https://maps.google.com/?q=Sree+Hanuma's+Pagadala+Pride,+Bachupally,+Hyderabad" },
-  { icon: Clock, label: 'Hours', value: 'Mon – Sun · 10:00 AM – 8:00 PM' },
+  { icon: Clock, label: 'Hours', value: 'Mon – Fri: 10:00 AM – 8:30 PM · Sat & Sun: 9:00 AM – 9:30 PM' },
 ]
 
 export default function Contact() {

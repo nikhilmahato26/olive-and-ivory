@@ -57,12 +57,12 @@ export default function About() {
           </blockquote>
           <div className="mt-12 grid grid-cols-3 gap-6 border-t border-sand pt-8">
             {[
-              ['10+', 'Years of Craft'],
+              ['Premium', 'Brands Only'],
               ['50+', 'Signature Rituals'],
-              ['5000+', 'Happy Guests'],
+              ['Luxury', 'Sanctuary'],
             ].map(([num, label]) => (
               <div key={label}>
-                <p className="font-serif text-3xl text-olive md:text-4xl">{num}</p>
+                <p className="font-serif text-2xl text-olive md:text-3xl lg:text-4xl">{num}</p>
                 <p className="mt-1 text-[0.65rem] uppercase tracking-widest2 text-stone">{label}</p>
               </div>
             ))}

@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
-import { Leaf } from 'lucide-react'
+import { Leaf, Instagram } from 'lucide-react'
 import { fadeUp, staggerContainer } from '../animations/variants'
 
 const HERO_IMAGE = '/hero-bg.png'
@@ -73,8 +73,13 @@ export default function Hero() {
             <a href="#services" className="btn border border-ivory/50 text-ivory hover:bg-ivory hover:text-olive">
               Explore Services
             </a>
-            <a href="https://wa.me/919281116233" target="_blank" rel="noreferrer" className="btn border border-ivory/50 text-ivory hover:bg-ivory hover:text-olive">
-              Book Consultation
+            <a
+              href="https://www.instagram.com/oliveandivorysalon?igsh=MXZsa2hwejI0a245Mg=="
+              target="_blank"
+              rel="noreferrer"
+              className="btn border border-ivory/50 text-ivory hover:bg-ivory hover:text-olive flex items-center gap-2"
+            >
+              <Instagram size={15} strokeWidth={1.5} /> Instagram
             </a>
           </motion.div>
         </motion.div>
